@@ -5,43 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedc4b1a-2c3f-4f54-b6e2-89318a4ea654" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/form.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/migrations/0001_initial.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/templates/my_personal_blog/done.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../My_first_project/uploads/my_data/Fotolia_9878015_Subscription_XL.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../My_first_project/uploads/my_data/Fotolia_9878015_Subscription_XL_Na5Dxsc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/My_second_blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_second_blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_second_blog/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_second_blog/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_second_blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_second_blog/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/2023/lovlya_karpa_vesnoy_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/2023/mit03395-315x225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/2023/nasa_smhb_compared-315x225.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/2023/qualcomm-snapdragon-8-gen-3-to-topple-apples-processors-315x225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0002_post_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_first_project/uploads/my_data/lovlya_karpa_vesnoy_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0003_comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/blog_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/My_first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/My_first_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/My_first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/My_first_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/forms.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/static/my_personal_blog/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/static/my_personal_blog/forms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/templates/my_personal_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/templates/my_personal_blog/base.html" afterDir="false" />
@@ -50,6 +26,14 @@
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/templates/my_personal_blog/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/templates/my_personal_blog/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_first_project/my_personal_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../My_first_project/my_personal_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/templates/my_blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookshop/.idea/bookshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshop/.idea/bookshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookshop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshop/.idea/misc.xml" afterDir="false" />
@@ -66,13 +50,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2PrZ24pXK18J4Ix1xSSHC90WVwi" />
   <component name="ProjectLevelVcsManager">
@@ -82,16 +66,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Andrey/Desktop/Folder/myDjangoProject/My_second_blog/my_blog/templates/my_blog",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrey/Desktop/Folder/myDjangoProject/My_first_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Andrey\Desktop\Folder\myDjangoProject\My_second_blog\my_blog\templates\my_blog" />
