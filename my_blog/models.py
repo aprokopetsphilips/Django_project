@@ -6,7 +6,7 @@ class Post(models.Model):
     title = models.CharField('Заголовок',max_length=100)
     descriptions = models.TextField('Текст поста')
     author = models.CharField('Автор',max_length=100)
-    date = models.DateField('Дата публикации')
+    date = models.DateField('Дата публикации', auto_now=True)
     img = models.ImageField('Изображения',upload_to='image/%Y')
 
     class Meta:
