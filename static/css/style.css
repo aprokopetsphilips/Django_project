@@ -6,6 +6,7 @@ body {
     font-family: Georgia, Arial, Helvetica, Sans-Serif;
     color: #333;
     background: url() repeat 0 0;
+
 }
 
 a { color: #ff0000; text-decoration: none; cursor:pointer; }
@@ -27,12 +28,14 @@ textarea { overflow:auto; }
 .border { border: 1px solid #e8e8e8; background: #fff; position: relative; }
 
 
-#navigation { height: 43px; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; }
+#navigation { height: 43px; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb;background: linear-gradient(to right, #20B2AA, #0000FF) }
 #navigation ul { list-style: none; }
-#navigation ul li { background-color: beige; float: left; height: 43px; border-right: 1px solid #dbdbdb; font-size: 12px; line-height: 43px; font-weight: bold; text-transform: uppercase; }
+#navigation ul li {  float: left; height: 43px; border-right: 1px solid #dbdbdb; font-size: 12px; line-height: 43px; font-weight: bold; text-transform: uppercase; }
 #navigation ul li a { float: left; height: 43px; color: #000; padding: 0 33px; }
 #navigation ul li a:hover,
-#navigation ul li a.active { color: #ff0000; text-decoration: none; }
+#navigation ul li a.active { color: #000000; text-decoration: none; }
+
+
 
 
 #main { width: 932px; padding: 37px 24px 17px 24px; }
@@ -48,7 +51,7 @@ textarea { overflow:auto; }
 
 .projects { padding: 10px 0 0 0; }
 .projects h3 { margin: 0 0 17px 0; }
-.projects .item { margin: 100 0 28px 0; }
+.projects .item { margin: 50 0 28px 0; }
 .projects .image { width: 183px; height: 111px; border: 0px solid #dbdbdb; padding: 2px; margin: 0 20px 0 3px; }
 .projects .text { width: 600px; }
 .projects .text h4 { font-size: 12px; line-height: 15px; color: #333; text-transform: uppercase; padding: 3px 0 2px 0; }

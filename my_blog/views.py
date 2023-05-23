@@ -53,14 +53,13 @@ class AddLike(View):
             new_like.save()
             return redirect(f'/{pk}')
 
+
 class DelLike(View):
     def get(self, request, pk):
         ip_client = get_client_ip(request)
         try:
-            dellike=Likes.objects.get(ip=ip_client)
+            dellike = Likes.objects.get(ip=ip_client)
             dellike.delete()
             return redirect(f'/{pk}')
         except:
             return redirect(f'/{pk}')
-
-

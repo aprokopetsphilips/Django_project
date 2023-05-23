@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	{% load static %}
 	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
-	<link rel="shortcut icon" href="css/images/favicon.ico" />
 <body>
 <div class="shell">
 	<div class="border">
@@ -28,6 +27,8 @@
 					<div class="text left">
 
 						<p>{{ post.descriptions }}</p>
+						<br>
+						<hr>
 						<p>Автор: {{ post.author }}</p>
 
 					</div>
@@ -37,26 +38,27 @@
 			<div class="cl">&nbsp;</div>
 			<div>
 				<br>
-				<p>Понравилось: {{ post.likes_set.all.count }}</p>
+				<p>Понравилось:  {{ post.likes_set.all.count }}</p>
 				<br>
-				<a href="{% url 'add_like' post.id %}">Нравится</a> <br>
+				<a href="{% url 'add_like' post.id %}">Нравится</a> |
 				<a href="{% url 'del_like' post.id %}">Не нравится</a>
 			</div>
 			<div class="form-comment">
+				<br>
 				<h3>Оставить комментарий</h3>
 
 			<form action="{% url 'add_comments' post.id %}" method="post">
 				{% csrf_token %}
 				<div>
-					<label>Ваш комментарий</label>
+					<label>Ваш комментарий</label><br>
 					<textarea name="text_comments"></textarea>
 				</div>
 				<div>
-					<label>Ваше имя*</label>
+					<label>Ваше имя*</label><br>
 					<input type="text" name="name">
 				</div>
 				<div>
-					<label>Ваш email*</label>
+					<label>Ваш email*</label><br>
 					<input type="email" name="email">
 				</div>
 				<input type="submit">
